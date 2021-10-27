@@ -1,0 +1,20 @@
+body {
+  /* merubah background total*/
+  background-color: whitesmoke;
+  background-image: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* merubah gambar agar menjadi background ketika ada periperal didalamnya
+.hero {
+  background: white url(../images/taco.jpg);
+}
+*/
+
+/*Start Mobile;*/
+@media screen and (max width: 480px) {
+  .hero {
+    background-image: none;
+  }
+}
+/*End Mobile;*/
